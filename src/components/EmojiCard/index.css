@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  .listItem {
+    list-style: none;
+  }
+  .emojiImg {
+    width: 100px;
+  }
+  .ImgBton {
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff33;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listItem {
+    list-style: none;
+  }
+  .emojiImg {
+    width: 60px;
+  }
+  .ImgBton {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff33;
+    display: flex;
+    margin: 1vw;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+  }
+}
